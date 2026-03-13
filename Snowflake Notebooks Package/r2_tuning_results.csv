@@ -1,0 +1,4 @@
+Target,Model,R2_mean,R2_std,RMSE_mean,RMSE_std,n_features,rows_used_after_trim,best_params
+Total Alkalinity,T6_tuned_rf,0.8397355928355961,0.008304962348629373,28.435563050465753,0.471880400583607,14,9131,"{'model__n_estimators': 200, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 1.0, 'model__max_depth': None}"
+Electrical Conductance,T6_tuned_rf,0.8519437014907123,0.017799493152750825,125.63143772786313,7.9073141335683985,14,9131,"{'model__n_estimators': 200, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 1.0, 'model__max_depth': None}"
+Dissolved Reactive Phosphorus,T6_tuned_rf,0.6978458360728066,0.015575058505235342,27.032027755803675,0.7511231072813174,14,9154,"{'model__n_estimators': 200, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 1.0, 'model__max_depth': None}"

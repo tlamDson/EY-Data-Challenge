@@ -1,0 +1,16 @@
+Test,Model,Target,Features,R2_mean,R2_std,RMSE_mean,RMSE_std,n_features
+T4_space_time,xgb,Dissolved Reactive Phosphorus,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.5606074220301323,0.009362448611093888,33.77930662116176,0.8654625003308136,12
+T5_climate_extra,xgb,Dissolved Reactive Phosphorus,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.5606074220301323,0.009362448611093888,33.77930662116176,0.8654625003308136,12
+T1_baseline4,rf,Dissolved Reactive Phosphorus,"swir22, NDMI, MNDWI, pet",0.5443363102150496,0.013373453316840525,34.390521426786734,0.6546112828287759,4
+T3_landsat_plus,xgb,Dissolved Reactive Phosphorus,"swir22, NDMI, MNDWI, pet, nir, green, swir16",0.2788893097436204,0.00919889564160029,43.271943709839945,0.8910316255042169,7
+T2_baseline4_plus_xgb,xgb,Dissolved Reactive Phosphorus,"swir22, NDMI, MNDWI, pet",0.27067072869537345,0.0057176271870403176,43.51665050546844,0.7785711600366465,4
+T4_space_time,xgb,Electrical Conductance,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.7399549998694701,0.012027643267460785,174.2949058718294,5.043522298114867,12
+T5_climate_extra,xgb,Electrical Conductance,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.7399549998694701,0.012027643267460785,174.2949058718294,5.043522298114867,12
+T1_baseline4,rf,Electrical Conductance,"swir22, NDMI, MNDWI, pet",0.6044409179778947,0.015579105340664099,214.97423085467236,5.443087261698629,4
+T2_baseline4_plus_xgb,xgb,Electrical Conductance,"swir22, NDMI, MNDWI, pet",0.3503261247010275,0.007934983405103641,275.55499493381564,4.7892360703302295,4
+T3_landsat_plus,xgb,Electrical Conductance,"swir22, NDMI, MNDWI, pet, nir, green, swir16",0.3444567507289178,0.010481080960093947,276.7863081060519,4.596154826726921,7
+T4_space_time,xgb,Total Alkalinity,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.7164580907070615,0.018092950183517732,39.744704604574565,1.4449667006992575,12
+T5_climate_extra,xgb,Total Alkalinity,"swir22, NDMI, MNDWI, pet, nir, green, swir16, Latitude, Longitude, month, year, season",0.7164580907070615,0.018092950183517732,39.744704604574565,1.4449667006992575,12
+T1_baseline4,rf,Total Alkalinity,"swir22, NDMI, MNDWI, pet",0.5563821899429515,0.012524623174613836,49.72592824510001,0.5736440957179415,4
+T3_landsat_plus,xgb,Total Alkalinity,"swir22, NDMI, MNDWI, pet, nir, green, swir16",0.3065886072120711,0.007413047644774819,62.17941752057491,0.695420039230128,7
+T2_baseline4_plus_xgb,xgb,Total Alkalinity,"swir22, NDMI, MNDWI, pet",0.29704869956887087,0.006105877086505658,62.60641386171176,0.7113330505544129,4
